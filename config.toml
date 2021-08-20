@@ -1,0 +1,20 @@
+baseURL = "https://www.robnugen.com/"
+languageCode = "en-us"
+title = "Barefoot Rob"
+theme = ["purehugo-augmentation", "purehugo" ]
+rssLimit = 50
+[markup.goldmark.renderer]
+unsafe= true
+[params]
+    mainSections = ["events"]
+  	author = "Rob Nugen"
+    hideSidebarIconText = true
+	twitterName = "thunderrabbit"
+	githubName = "thunderrabbit"
+	facebook = "barefootrob"
+	linkedin = "robnugen"
+	description = "keep pushing the limits"
+	hideShareOptions = true
+[permalinks]
+    blog = "/blog/:year/:month/:day/:title/"
+    journal = "/journal/:year/:month/:day/:title/"
