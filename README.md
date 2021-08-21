@@ -16,3 +16,10 @@ Most lists use this template
 `content/quests/slow-down` does NOT use this template:
 
     themes/purehugo-augmentation/layouts/quests/slow-down/list.html
+    
+    
+From https://gohugo.io/templates/lists/
+
+I decided to just move `quests/slow-down` pages to `books/slow-down`.
+This way, any future book will be sorted in the same way, by title, 
+not that books are sorted by title normally, but that's what I will do this time.
