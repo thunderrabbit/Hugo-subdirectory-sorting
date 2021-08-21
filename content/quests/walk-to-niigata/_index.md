@@ -1,7 +1,5 @@
 BEGIN Content in /quests/walk-to-niigata/_index.md
 
-### I want this to be sorted by Date ###
-
-## But nothing shows up in the list below. ##
+(( This list is correctly sorted by Date ))
 
 END Content in /quests/walk-to-niigata/_index.md

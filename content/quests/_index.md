@@ -1,5 +1,7 @@
 BEGIN Content in /quests/_index.md
 
-(( This list is correctly sorted by Date ))
+### I want this to be sorted by Date ###
+
+## But nothing shows up in the list below. ##
 
 END Content in /quests/_index.md
