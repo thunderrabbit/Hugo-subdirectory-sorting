@@ -1,5 +1,5 @@
 ---
-title: "1504 Let Go and eat pizza"
+title: "EEEE 1504 Let Go and eat pizza"
 type: "book"
 tags: [ "book", "canaks", "pizza", "release" ]
 author: Rob Nugen
