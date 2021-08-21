@@ -1,13 +1,18 @@
-This repo has some entries I want to sort in Title order
+I want most lists to be sorted by date.  However, I want posts in `content/quests/slow-down` to be sorted by Title.
 
-    content/quests/slow-down   ＜ーー  sort by title
-    content/blog      ＜ーー  sort by date
-    content/journal   ＜ーー  sort by date
+    content/blog               ＜ーー  sorted by date
+    content/journal            ＜ーー  sorted by date
+    content/quests/            ＜ーー  sorted by date
+    content/quests/slow-down   ＜ーー  I want to sort by title
 
-The lists all seem to use this template
+Most lists use this template
 
     themes/purehugo/layouts/_default/list.html
 
-I have tried a variety of locations that make sense to me,
-but none override the list.html above
+`content/quests/` uses this template:
 
+    themes/purehugo-augmentation/layouts/quests/list.html
+
+`content/quests/slow-down` does NOT use this template:
+
+    themes/purehugo-augmentation/layouts/quests/slow-down/list.html
