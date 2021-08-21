@@ -1,6 +1,6 @@
 ---
 title: "DDDD 1429 Climbed a ladder to tire heaven"
-type: "book"
+layout: "book"
 tags: [ "book", "explore", "fun", "great", "heaven", "tires" ]
 author: Rob Nugen
 date: 2021-06-07T15:15:52+09:00

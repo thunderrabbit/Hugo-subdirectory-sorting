@@ -1,6 +1,6 @@
 ---
 title: "FFFF 8319 Deneys interview Rob re walk to Niigata"
-type: "book"
+layout: "book"
 tags: [ "book", "deneys", "interview" ]
 author: Rob Nugen
 date: 2021-06-07T15:34:52+09:00

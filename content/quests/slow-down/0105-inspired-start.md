@@ -1,6 +1,6 @@
 ---
 title: "AAAA 0105 Inspired Start"
-type: "book"
+layout: "book"
 tags: [ "slow", "down", "book" ]
 author: Rob Nugen
 date: 2021-08-07T08:00:11+09:00

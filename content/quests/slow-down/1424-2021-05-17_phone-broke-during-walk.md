@@ -1,6 +1,6 @@
 ---
 title: "CCCC 1424 Phone Broke During Walk"
-type: "book"
+layout: "book"
 tags: [ "book", "broke", "erg", "phone" ]
 author: Rob Nugen
 date: 2021-06-07T15:28:19+09:00

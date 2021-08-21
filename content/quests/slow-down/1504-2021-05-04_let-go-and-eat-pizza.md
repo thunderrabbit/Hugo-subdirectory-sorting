@@ -1,6 +1,6 @@
 ---
 title: "EEEE 1504 Let Go and eat pizza"
-type: "book"
+layout: "book"
 tags: [ "book", "canaks", "pizza", "release" ]
 author: Rob Nugen
 date: 2021-06-07T14:41:03+09:00
