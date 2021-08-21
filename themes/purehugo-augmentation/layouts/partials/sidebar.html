@@ -11,10 +11,21 @@
         <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a class="pure-button" href='/'>
-                        <i class="fa"></i>{{ if not .Site.Params.hideSidebarLinkText }} home{{ end }}
+                    <a class="pure-button" href='{{ "quests" | absURL }}'>
+                        <i class="fa"></i>{{ if not .Site.Params.hideSidebarLinkText }} quests{{ end }}
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="pure-button" href='{{ "quests/slow-down" | absURL }}'>
+                        <i class="fa"></i>{{ if not .Site.Params.hideSidebarLinkText }} slow-down{{ end }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="pure-button" href='{{ "quests/walk-to-niigata" | absURL }}'>
+                        <i class="fa"></i>{{ if not .Site.Params.hideSidebarLinkText }} walk-to-niigata{{ end }}
+                    </a>
+                </li>
+<!--
                 <li class="nav-item">
                     <a class="pure-button" href='{{ "events" | absURL }}'>
                         <i class="fa"></i>{{ if not .Site.Params.hideSidebarLinkText }} events{{ end }}
@@ -35,13 +46,11 @@
                         <i class="fa"></i>{{ if not .Site.Params.hideSidebarLinkText }} contact{{ end }}
                     </a>
                 </li>
-<!--
                 <li class="nav-item">
                     <a class="pure-button" href='{{ "faq" | absURL }}'>
                         <i class="fa"></i>{{ if not .Site.Params.hideSidebarLinkText }} faq{{ end }}
                     </a>
                 </li>
--->
                 {{ if .Site.Params.twitterName }}
                 <li class="nav-item">
                     <a class="pure-button" rel="me" href="https://twitter.com/{{ .Site.Params.twitterName }}">
